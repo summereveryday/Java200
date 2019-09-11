@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mod1HW/Mod1HW.iml" filepath="$PROJECT_DIR$/Mod1HW/Mod1HW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod1HW/Mod1.Mod1HW.iml" filepath="$PROJECT_DIR$/Mod1HW/Mod1.Mod1HW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod1Notes/Mod1.mod1Notes.iml" filepath="$PROJECT_DIR$/mod1Notes/Mod1.mod1Notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
     </modules>
   </component>
