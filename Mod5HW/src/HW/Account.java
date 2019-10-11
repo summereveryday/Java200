@@ -1,7 +1,6 @@
 package HW;
 
-import org.omg.PortableServer.POAPackage.ObjectAlreadyActive;
-
+import java.util.Calendar;
 import java.util.Date;
 
 public class Account {
@@ -20,6 +19,7 @@ public class Account {
     Account(int id, double balance){
         this.id = id;
         this.balance = balance;
+        this.dateCreated = Calendar.getInstance().getTime();
     }
 
     public int getId() {
@@ -51,14 +51,12 @@ public class Account {
     }
 
     public double getMonthlyInterestRate(){
-        //do math;
-        double monthlyInterestRate = 0;
+        double monthlyInterestRate = this.annualInterestRate / 12;
         return monthlyInterestRate;
     }
 
     public double getMonthlyInterest(){
-        //do math;
-        double monthlyInterest = 0;
+        double monthlyInterest = (getMonthlyInterestRate() / 100 ) * balance;
         return monthlyInterest;
     }
 
