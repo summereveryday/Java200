@@ -4,6 +4,6 @@ public class SuperClass {
     int number = 20;
 
     public void display(){
-        System.out.println(number);
+        System.out.println("SuperClass number is " + number);
     }
 }
